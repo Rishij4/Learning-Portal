@@ -24,6 +24,12 @@ app.use((req, res, next) => {
 });
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+app.get("/api/test", (req, res) => {
+  res.json({
+    success: true,
+    message: "API is working"
+  });
+});
 app.use("/api/videos", videoRoutes);
 app.use("/api/bookmarks", bookmarkRoutes);
 
