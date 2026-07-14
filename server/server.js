@@ -1,4 +1,3 @@
-// Express server
 require("dotenv").config();
 
 const express = require("express");
@@ -17,6 +16,13 @@ connectDB();
 // Middlewares
 app.use(cors());
 app.use(express.json());
+
+// 👇 ADD THIS HERE
+app.use((req, res, next) => {
+    console.log(req.method, req.url);
+    next();
+});
+
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api/videos", videoRoutes);
 app.use("/api/bookmarks", bookmarkRoutes);
