@@ -11,7 +11,7 @@ const videos = [
     thumbnail:
       "https://img.youtube.com/vi/W6NZfCO5SIk/maxresdefault.jpg",
     videoUrl:
-      "http://localhost:5000/uploads/videos/javascript.mp4",
+      "https://learning-portal-4qjp.onrender.com/uploads/videos/javascript.mp4",
     duration: 300,
     category: "JavaScript",
   },
@@ -21,7 +21,7 @@ const videos = [
     thumbnail:
       "https://img.youtube.com/vi/w7ejDZ8SWv8/maxresdefault.jpg",
     videoUrl:
-      "http://localhost:5000/uploads/videos/react.mp4",
+      "https://learning-portal-4qjp.onrender.com/uploads/videos/react.mp4",
     duration: 300,
     category: "React",
   },
@@ -31,12 +31,11 @@ const videos = [
     thumbnail:
       "https://img.youtube.com/vi/Oe421EPjeBE/maxresdefault.jpg",
     videoUrl:
-      "http://localhost:5000/uploads/videos/node.mp4",
+      "https://learning-portal-4qjp.onrender.com/uploads/videos/node.mp4",
     duration: 300,
     category: "Node.js",
-  }
+  },
 ];
-
 const seedData = async () => {
   try {
     await connectDB();
