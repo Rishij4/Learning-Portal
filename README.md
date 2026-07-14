@@ -94,7 +94,7 @@ Learning-Portal
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Learning-Portal.git
+git clone https://github.com/Rishij4/Learning-Portal.git
 ```
 
 ---
@@ -220,7 +220,7 @@ Complete prevention of screenshots or downloads is not possible using standard w
 ## GitHub Repository
 
 ```
-https://github.com/your-username/Learning-Portal
+https://github.com/Rishij4/Learning-Portal
 ```
 
 ---
