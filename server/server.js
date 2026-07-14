@@ -1,3 +1,4 @@
+console.log("********** NEW SERVER FILE LOADED **********");
 require("dotenv").config();
 
 const express = require("express");
